@@ -108,9 +108,32 @@
   color: #ffffff;
 }
 
+.recipe-titles__title {
+  max-width: 580px;
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-bottom: 24px;
+}
+
+.recipe-titles__description {
+  max-width: 438px;
+  margin-left: 80px;
+  margin-bottom: 80px;
+}
+
+.recipe-section__item {
+  height: 480px;
+  width: 273px;
+}
+
 .recipe-section__videos {
   display: flex;
   justify-content: center;
+}
+
+.recipe-section__item-title {
+  margin-bottom: 215px;
+  margin-top: 24px;
 }
 
 .footer {
