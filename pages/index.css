@@ -158,6 +158,16 @@
   margin-top: 24px;
 }
 
+.recipe-video__information {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-video__list {
+  list-style: none;
+}
+
 .footer {
   padding: 60px 80px;
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
