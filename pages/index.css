@@ -96,6 +96,22 @@
 }
 
 /* Write your styles here */
+.recipes {
+  min-height: 100vh;
+  background-color: #0a2750;
+  background-image: url("../images/background_recipes.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.recipe-titles {
+  color: #ffffff;
+}
+
+.recipe-section__videos {
+  display: flex;
+  justify-content: center;
+}
 
 .footer {
   padding: 60px 80px;
