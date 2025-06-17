@@ -110,9 +110,22 @@
 
 .recipe-titles__title {
   max-width: 580px;
-  margin-top: 100px;
   margin-left: 80px;
   margin-bottom: 24px;
+  padding-top: 100px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.recipe-titles__description {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .recipe-titles__description {
@@ -122,13 +135,22 @@
 }
 
 .recipe-section__item {
-  height: 480px;
-  width: 273px;
+  margin-right: 24px;
+}
+
+.recipe-section__item:last-of-type {
+  margin-right: 0px;
 }
 
 .recipe-section__videos {
   display: flex;
   justify-content: center;
+  list-style: none;
+}
+
+.recipe-section__video {
+  width: 480px;
+  height: 273px;
 }
 
 .recipe-section__item-title {
