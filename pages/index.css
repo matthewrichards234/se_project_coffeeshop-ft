@@ -179,6 +179,12 @@
   background-color: #d9e7ff;
 }
 
+.reservations__fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .footer {
   padding: 60px 80px;
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);

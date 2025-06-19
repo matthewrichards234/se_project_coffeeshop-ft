@@ -103,47 +103,55 @@
 
         <!--Add reservation form section here-->
         <section class="reservations">
-          <h1 class="reservations__header">Book a table</h1>
-          <div class="reservations__forms">
-            <ul class="reservations__forms-list">
-              <li class="reservations__list-item">
-                <form class="reservation__form">
-                  <label>Name *</label>
-                  <input type="text" required />
-                </form>
-              </li>
-              <li class="reservations__list-item">
-                <form class="reservation__form">
-                  <label>Number of guests *</label>
-                  <input type="number" min="1" max="8" required />
-                </form>
-              </li>
-              <li class="reservations__list-item">
-                <form class="reservation__form">
-                  <label>Date & time *</label>
-                  <input type="datetime" required />
-                </form>
-              </li>
-              <li class="reservations__list-item">
-                <form class="reservation__form">
-                  <label>Your email*</label>
-                  <input type="email" required />
-                </form>
-              </li>
-              <li class="reservations__list-item">
-                <form class="reservation__form">
-                  <label></label>
-                  <input type="submit" />
-                </form>
-              </li>
-              <li class="reservations__list-item">
-                <form class="reservation__form">
-                  <label></label>
-                  <input type="checkbox" />
-                </form>
-              </li>
-            </ul>
-          </div>
+          <h1 class="reservations__title">Book a table</h1>
+
+          <form class="reservations__form">
+            <fieldset class="reservations__fieldset">
+              <label class="reservations__label">Name *</label>
+              <input
+                class="reservations__input"
+                type="text"
+                placeholder="Name Surname"
+                required
+              />
+
+              <label class="reservations__label">Number of guests *</label>
+              <input
+                class="reservations__input"
+                type="number"
+                min="1"
+                max="8"
+                placeholder="1-8"
+                required
+              />
+
+              <label class="reservations__label">Date & time *</label>
+              <input
+                class="reservations__input"
+                type="datetime-local"
+                required
+              />
+
+              <label class="reservations__label">Your email *</label>
+              <input
+                class="reservations__input"
+                type="email"
+                placeholder="email@email.com"
+                required
+              />
+
+              <label class="reservations__checkbox-label">
+                <input class="reservations__checkbox" type="checkbox" />
+                Agree to terms
+              </label>
+
+              <input
+                class="reservations__submit"
+                type="submit"
+                value="Submit"
+              />
+            </fieldset>
+          </form>
         </section>
       </main>
 
