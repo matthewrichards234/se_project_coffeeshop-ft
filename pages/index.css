@@ -191,6 +191,7 @@
   text-align: center;
 }
 
+/* Rids white space between sections */
 section > *:first-child {
   margin-top: 0;
 }
