@@ -170,6 +170,15 @@
   margin-top: 24px;
 }
 
+/*Add CSS for Reservations here*/
+.reservations {
+  min-height: 100vh;
+  background-image: url(../images/background_reservation.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #d9e7ff;
+}
+
 .footer {
   padding: 60px 80px;
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
