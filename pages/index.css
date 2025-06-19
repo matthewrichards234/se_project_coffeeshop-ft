@@ -171,7 +171,7 @@
 }
 
 /*Add CSS for Reservations here*/
-.reservations {
+.reservation {
   min-height: 100vh;
   background-image: url(../images/background_reservation.svg);
   background-size: cover;
@@ -179,10 +179,52 @@
   background-color: #d9e7ff;
 }
 
-.reservations__fieldset {
+.reservation__title {
+  padding-top: 100px;
+  margin-bottom: 80px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.form {
+}
+
+.form__fieldset {
   display: flex;
   flex-direction: column;
+  border: none;
   align-items: center;
+}
+
+.form__label {
+  margin-bottom: 8px;
+}
+
+.form__input {
+  width: 385px;
+  border-radius: 3px;
+  padding: 15px 20px 15px 20px;
+  margin-bottom: 32px;
+}
+
+.form__submit {
+  width: 385px;
+  padding: 20px 0 20px 0;
+  background-color: #1878dc;
+  color: #fff;
+  margin: 32px 0 32px 0;
+}
+
+.form__submit:hover {
+  background-color: #3f96f3;
+}
+
+.reservation__input_box {
+  border: 1px solid #838383;
 }
 
 .footer {

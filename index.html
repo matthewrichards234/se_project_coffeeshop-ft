@@ -102,22 +102,25 @@
         </section>
 
         <!--Add reservation form section here-->
-        <section class="reservations">
-          <h1 class="reservations__title">Book a table</h1>
-
-          <form class="reservations__form">
-            <fieldset class="reservations__fieldset">
-              <label class="reservations__label">Name *</label>
+        <section class="reservation">
+          <h1 class="reservation__title">Book a table</h1>
+          <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">Name *</label>
               <input
-                class="reservations__input"
+                class="form__input"
+                id="name"
                 type="text"
                 placeholder="Name Surname"
                 required
               />
 
-              <label class="reservations__label">Number of guests *</label>
+              <label class="form__label" for="num-guests"
+                >Number of guests *</label
+              >
               <input
-                class="reservations__input"
+                class="form__input"
+                id="num-guests"
                 type="number"
                 min="1"
                 max="8"
@@ -125,31 +128,34 @@
                 required
               />
 
-              <label class="reservations__label">Date & time *</label>
+              <label class="form__label" for="date-time">Date & time *</label>
               <input
-                class="reservations__input"
+                class="form__input"
+                id="date-time"
                 type="datetime-local"
                 required
               />
 
-              <label class="reservations__label">Your email *</label>
+              <label class="form__label" for="email">Your email *</label>
               <input
-                class="reservations__input"
+                class="form__input"
+                id="email"
                 type="email"
                 placeholder="email@email.com"
                 required
               />
 
-              <label class="reservations__checkbox-label">
-                <input class="reservations__checkbox" type="checkbox" />
-                Agree to terms
-              </label>
+              <button class="form__submit" type="submit">Book a table</button>
 
-              <input
-                class="reservations__submit"
-                type="submit"
-                value="Submit"
-              />
+              <label class="form__checkbox-label" for="checkbox">
+                <input
+                  class="form__checkbox"
+                  id="checkbox"
+                  type="checkbox"
+                  required
+                />
+                I agree with the terms of use
+              </label>
             </fieldset>
           </form>
         </section>
