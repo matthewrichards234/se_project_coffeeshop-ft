@@ -1,0 +1,6 @@
+.menu {
+  min-height: 100vh;
+  background-image: url("../images/background_menu.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
