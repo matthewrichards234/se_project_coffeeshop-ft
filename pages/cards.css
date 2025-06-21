@@ -2,7 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   height: 100vh;
-  justify-content: space-around;
   flex-direction: row;
 }
 
@@ -20,13 +19,13 @@
 }
 
 .cards__menu_filter {
-  flex-basis: 49%;
   background-color: red;
+  padding: 0 auto 0 auto;
 }
 
 .cards__menu_espresso {
-  flex-basis: 49%;
   background-color: red;
+  padding: 0 auto 0 auto;
 }
 
 .cards__menu_baked-goods {
