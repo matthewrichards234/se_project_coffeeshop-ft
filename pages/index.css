@@ -2,29 +2,11 @@
 @import url(../blocks/header.css);
 @import url(../blocks/nav.css);
 @import url(../blocks/recipes.css);
+@import url(../blocks/form.css);
+@import url(../blocks/reservation.css);
 @import url("menu.css");
 @import url("cards.css");
 @import url(../blocks/footer.css);
-
-.reservation {
-  min-height: 100vh;
-  background-image: url(../images/background_reservation.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #d9e7ff;
-  box-sizing: border-box;
-}
-
-.reservation__title {
-  padding-top: 100px;
-  margin-bottom: 80px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
-  text-align: center;
-}
 
 /* Rids white space between sections */
 section > *:first-child {
@@ -32,74 +14,4 @@ section > *:first-child {
 }
 section > *:last-child {
   margin-bottom: 0;
-}
-
-.form__fieldset {
-  display: flex;
-  flex-direction: column;
-  border: none;
-  align-items: center;
-  width: 385px;
-  margin: auto;
-}
-
-.form__label {
-  margin-bottom: 8px;
-  align-self: baseline;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.form__input {
-  width: 385px;
-  border-radius: 3px;
-  padding: 15px 20px 15px 20px;
-  margin-bottom: 32px;
-}
-
-.form__submit {
-  width: 100%;
-  border-radius: 3px;
-  padding: 20px 0 20px 0;
-  background-color: #1878dc;
-  color: #fff;
-  margin: 32px 0 32px 0;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.form__submit:hover {
-  background-color: #3f96f3;
-}
-
-.reservation__input_box {
-  border: 1px solid #838383;
-}
-
-.form__checkbox__container {
-  display: flex;
-  align-items: center;
-}
-
-.form__checkbox-label {
-  display: flex;
-  align-items: center;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  margin: 32px 0 0 0;
-}
-
-.form__checkbox {
-  margin-right: 12px;
-  height: 20px;
-  width: 20px;
 }
