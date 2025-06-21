@@ -21,20 +21,26 @@
 .cards__menu_filter {
   background-color: red;
   padding: 0 auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 
 .cards__menu_espresso {
   background-color: red;
   padding: 0 auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 
 .cards__menu_baked-goods {
   flex-basis: 100%;
   background-color: red;
+  justify-content: center;
 }
 
 .cards__menu-item {
   padding-bottom: 16px;
+}
+
+.card__menu-item::after {
 }
 
 .cards__menu-item:last-of-type {
