@@ -1,0 +1,44 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.cards__menu {
+  list-style: none;
+}
+
+.cards__menu-heading {
+  margin-bottom: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.cards__menu_filter {
+  flex-basis: 49%;
+  background-color: red;
+}
+
+.cards__menu_espresso {
+  flex-basis: 49%;
+  background-color: red;
+}
+
+.cards__menu_baked-goods {
+  flex-basis: 100%;
+  background-color: red;
+}
+
+.cards__menu-item {
+  padding-bottom: 16px;
+}
+
+.cards__menu-item:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
