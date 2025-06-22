@@ -1,5 +1,28 @@
 .card {
   width: 540px;
-  justify-content: center;
-  gap: 100px;
+}
+
+.card__title {
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.card__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card__list-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.card__list-divider {
+  border-bottom: #838383 solid 1px;
+  flex-grow: 1;
 }
