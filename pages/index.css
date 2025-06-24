@@ -9,11 +9,3 @@
 @import url(../blocks/card.css);
 @import url(../blocks/about.css);
 @import url(../blocks/footer.css);
-
-/* Rids white space between sections */
-section > *:first-child {
-  margin-top: 0;
-}
-section > *:last-child {
-  margin-bottom: 0;
-}
